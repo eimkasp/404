@@ -59,7 +59,7 @@ form {
 input[type="text"],
 input[type="email"],
 textarea {
-    background-color: #f3f3f3;
+    background-color: #fff;
     color: rgb(151, 151, 151);
     padding: 10px 10px 10px 10px;
     border-radius: 5px;

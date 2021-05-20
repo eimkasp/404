@@ -1,0 +1,67 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background: #fcfcfc;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1140px;
+    margin: 100px auto;
+}
+
+.card {
+    /* display: flex;
+    flex-flow: row wrap; */
+    width: 29%;
+    box-shadow: 0 1px 10px 0 rgb(0 0 0 / 10%);
+    border-radius: 3px;
+    background: #fff;
+    /* padding: 10px; */
+    align-items: center;
+    margin: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+
+/* .card:hover {
+    margin-top: 2px;
+} */
+
+.card:hover {
+    /* -ms-transform: scale(1.01); */
+    /* IE 9 */
+    /* -webkit-transform: scale(1.1); */
+    /* Safari 3-8 */
+    transform: scale(1.02);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.under-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 15px;
+}
+
+.card-description {
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.card-text {
+    margin-top: 5px;
+    color: rgb(139, 139, 139);
+    font-size: 13px;
+}
+
+.download-icon {
+    font-size: 15px;
+}

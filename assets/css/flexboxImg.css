@@ -15,7 +15,7 @@ body {
 .card {
     /* display: flex;
     flex-flow: row wrap; */
-    width: 29%;
+    width: 330px;
     box-shadow: 0 1px 10px 0 rgb(0 0 0 / 10%);
     border-radius: 3px;
     background: #fff;
@@ -24,11 +24,6 @@ body {
     margin: 10px;
     transition: all 0.2s ease-in-out;
 }
-
-
-/* .card:hover {
-    margin-top: 2px;
-} */
 
 .card:hover {
     /* -ms-transform: scale(1.01); */
@@ -68,14 +63,14 @@ body {
 
 @media only screen and (max-width: 950px) {
     .card {
-        width: 33%;
+        width: 330px;
     }
 }
 
 @media only screen and (max-width: 700px) {
     .container {
         background-color: darkgrey;
-        margin: 50px 0px;
+        margin: 100px 0px;
     }
     .card {
         width: 330px;

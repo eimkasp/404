@@ -61,13 +61,33 @@ body {
     font-size: 15px;
 }
 
-@media only screen and (max-width: 950px) {
-    .card {
-        width: 330px;
+@media only screen and (max-width: 1199.98px) {
+    body {
+        background-color: red;
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 767.98px) {
+    body {
+        background-color: yellow;
+    }
+}
+
+@media only screen and (max-width: 575.98px) {
+    body {
+        background-color: green;
+    }
+}
+
+
+/* @media only screen and (max-width: 950px) {
+    .card {
+        width: 330px;
+    }
+} */
+
+
+/* @media only screen and (max-width: 700px) {
     body {
         background-color: darkgrey;
     }
@@ -77,4 +97,4 @@ body {
     .card {
         width: 330px;
     }
-}
+} */

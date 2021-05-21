@@ -77,6 +77,10 @@ blockquote {
     text-decoration: none;
 }
 
+.author-cred img {
+    display: none;
+}
+
 @media only screen and (max-width: 768px) {
     main {
         max-width: 100%;
@@ -85,5 +89,35 @@ blockquote {
     .container {
         display: flex;
         flex-direction: column;
+    }
+
+    .image-man {
+        display: none;
+    }
+
+    .author-cred img {
+        display: inline;
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+    }
+
+    .col-container {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .col-divider {
+        width: 100%;
+        padding: 0;
+        border: none;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    blockquote {
+        margin: 0;
     }
 }

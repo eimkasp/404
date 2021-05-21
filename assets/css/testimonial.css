@@ -63,7 +63,7 @@ blockquote {
 .col-divider {
     width: 35%;
     border-left: 1px solid lightgrey;
-    padding: 0 30px 0 30px;
+    padding: 0 30px 0 40px;
 }
 
 .number {
